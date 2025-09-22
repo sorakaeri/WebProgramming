@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>20250916</title>
+        <style>
+            /* ONE Mobile POP 폰트 */
+            @font-face {
+                font-family: 'One Mobile POP';
+                src: url('C:\Users\OWNER\Desktop\Web Programming\ONE Mobile POP') format('otf'); 
+                font-style: normal;
+            }
+
+            /* 다크 모드 */
+            body.dark-mode {
+                font-family: 'One Mobile POP';
+                background-color: #121212;
+                color: #e0e0e0;
+            }
+        </style>
+        <hr>
+    </head>
+
+    <body>
+
+        <p>단순 버튼: <input type="button" value="in_tag">
+        <button type="button">button_tag</button><br></p>
+        <p>제출 버튼: <input type="submit" value="in_submit">
+        <button type="submit">button_submit</button><br></p>
+        <p>리셋 버튼: <input type="reset" value="in_reset">
+        <button type="reset">button_reset</button><br></p>
+        <p>이미지 버튼: <input type="image" src="img/button.png">
+        <button type="button"><img src=""></button></p>
+
+        <p>키우고 싶은 고양이는 몇마리인가요?</p>
+        고양이 <input type="number" min="0" max="0" step="1"> 마리 키우고 싶어요.
+        <br><br>
+        <p>고양이가 한 번에 먹는 사료량은 몇 g?</p>
+        <input type="range" min="0" max="100" value="80" step="10">
+
+
+        <!-- 입력 양식 -->
+        <p>원하는 동물원의 무료 입장권을 드립니다.(단일 선택)</p>
+        <input type="radio" name="ticket" value="1">서울대공원
+        <input type="radio" name="ticket" value="2">어린이대공원
+        <input type="radio" name="ticket" value="3" checked>에버랜드
+        <br><br><hr>
+
+
+        <!--입력 양식 -->
+
+        <hr>
+
+        <!--자동완성 -->
+
+
+        <!--논리 영역 -->
+
+
+        <!--인용문 -->
+
+
+        <!-- 테이블 -->
+        <table border="1">
+            <caption>AI 사이트 가격 알아보기</caption>
+            <thread>
+                <tr><th>종류</th><th>가격</th><th>기간</th></tr>
+            </thread>
+            
+            <tbody>
+            <tr><td>Gemini</td><td>29,000원</td><td rowspan="3">월</td></tr>
+            <tr><td>ChatGPT</td><td>27,000원</td></tr>
+            <tr><td>Perplexity</td><td>54,000원</td></tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <!-- 링크 -->
+        <p><img src="img/Gemini.webp" height="100"> Gemini
+        <a href="https://gemini.google.com/app?hl=ko">홈페이지</a></p>
+
+        <p><img src="img/chatgpt.png" height="100"> ChatGPT
+        <a href="https://chatgpt.com/">홈페이지</a></p>
+
+        <p><img src="img/perplexity.jpg" height="100"> Perplexity
+        <a href="https://www.perplexity.ai/">홈페이지</a></p>
+
+        <!-- 목록 -->
+        <h4>AI 사이트 정리</h4>
+        <ul>
+            <li>Gemini</li>
+            <li>ChatGPT</li>
+            <li>Perplexity</li>
+        <hr>
+    
+    </body>
+</html>
